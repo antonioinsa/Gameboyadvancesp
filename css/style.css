@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.partesuperior{
+    display: flex;
+    height: 25em;
+    width: 25em;
+    background-color: rgb(57, 57, 175);
+    border-radius: 2%;
+    
+}
+
+.pantalla{
+    display: flex;
+    height: 15em;
+    width: 18em;
+    background-color: rgba(117, 116, 116, 0.767);
+    border-radius: 1%;
+    margin-top: 3em;
+    border: 1em solid black;
+    border-bottom: 3em  solid black;
+    
+
+    
+}
+.pantizq{
+    height: 17em;
+    width: 1.6em;
+    justify-content: flex-start;
+}
+
+.goma-pantalla{
+    height: 1em;
+    width: 1em;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 0.8em;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.col1{
+    height: 3em;
+    width: 1.5em;
+    background-color: rgb(57, 57, 175);;
+    border-radius: 10%; 
+    
+}
+
+.col2{
+    height: 3em;
+    width: 11em;
+    background-color: rgb(57, 57, 175);;
+    border-radius: 10%;
+    border: 0.1em solid black;
+   
+}
+
+#col3{
+    height: 3em;
+    width: 1.2em;
+    background-color: rgb(57, 57, 175);;
+    border-radius: 10%;
+    
+}
+
+.parteinferior{
+    display: flex;
+    justify-content: center;
+    height: 25em;
+    width: 25em;
+    background-color: rgb(57, 57, 175);
+    border-radius: 2%;
+    
+    
+}
+
+
+.botoncentralsuperior{
+    display: flex;
+    height: 1em;
+    width: 1em;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+
+
+.relievejoystic{
+
+    height: 6em;
+    width: 6em;
+    background-color: grey;
+    border-radius: 50%;
+    
+}
