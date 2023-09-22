@@ -107,7 +107,9 @@ body {
 .luzverde{
     height: 1em;
     width: 2em;
-    color: 0.1em solid black
+    color: 0.1em solid red;
+    background-color: red;
+
 }
 
 .relievejoystic{
