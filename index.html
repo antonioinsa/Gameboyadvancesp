@@ -11,8 +11,8 @@
 <body>
     <div class="container flex">
         <div class="container-gameboy"><!--gameboy-->
-            <div class="container-screen">
-                <div id="arribapantalla" class="background"><!--pantalla-->
+            <div class="container-arriba">
+                <div id="arribapantalla" class="background"><!--parte superior gameboy-->
                     <div id="arribapantallaizquierda" class="background">
                         <div id="gomaarribaizq"></div>
                     </div>
@@ -43,28 +43,26 @@
                     </div>
                 </div>
             </div>
-            <div class="container-axis background">
-                <div id="container-axis-1"></div>
-                <div id="container-axis-2"></div>
-                <div id="container-axis-3"></div>
-                <div id="container-axis-4"></div>
-                <div id="container-axis-5"></div>
+            <div class="container-axis background"><!--Bisgra gameboy-->
+                <div id="container-axis-1" class="background"></div>
+                <div id="container-axis-2" class="background"></div>
+                <div id="container-axis-3" class="background"></div>
+                <div id="container-axis-4" class="background"></div>
+                <div id="container-axis-5" class="background"></div>
             </div>
-            <div class="container-buttons background">
-                <div id="container-buttons-light" class="background">
+            <div class="container-abajo"><!--Parte inferior gameboy-->
+                <div id="container-abajo-luces" class="background">
                     <div id="light-nothing" class="background"></div>
                     <div id="light-button" class="flex background">
-                        <div id="light-button-circle" class="flex">
-                            <span id="icon" class="material-symbols-outlined">
-                                light_mode
-                            </span>
+                        <div id="botonbrillo" class="flex">
+                            <!--<span id="icon" class="material-symbols-outlined">light</span>-->
                         </div>
                     </div>
-                    <div id="light-2lights" class="background">
+                    <div id="leds" class="background"><!--leds encendido y carga-->
                         <div>
-                        <div id="greenlight" class="lightlight"></div>
-                        <div id="lights-space" class="background"></div>
-                        <div class="lightlight"></div>
+                        <div id="luzverde" class="luces"></div>
+                        <div id="espacioluces" class="background"></div>
+                        <div class="luces"></div>
                     </div>
                     </div>
                 </div>
