@@ -1,70 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div class="container">
-    <div class="partesuperior">
-        <div class="pantizq"></div>
-        <div class="goma-pantalla"></div>
-        <div class="pantalla"></div>
-        <div class="goma-pantalla"></div>
-    </div>
-    <div class="row">
-        <div class="col1"></div>
-        <div class="col2"></div>
-        <div class="col2"></div>
-        <div id="col3"></div>
-    </div>
-    <div class="parteinferior">
-        <div class="superior">
-            <div class="lucesestado">
-                <div id="luzverde"></div>
-                <div id="luzambar"></div>
-            </div>
-            <div class="botoncentralsuperior"></div>
-            <div></div>           
-        </div>
-        <div Class="joystickbotones">
-            <div class="botones">
-                <div class="cajasuperior">
-                    <div id="botona"></div>
-                </div>
-                <div class="cajainferior">
-                    <div id="botoninb"></div>
-                </div>
-            </div>
-            <div class="joystick">
-                <div id="joystickvertical"></div>
-                <div id="joystickhorizontal"></div>
-            </div>
-        </div>
-        <div>
-            <div></div>
-            <div class="rejillaaltavoz"></div>
-            <div></div>
-        </div>
-        <div class="inferior">
-            <div></div>
-            <div class="botonesinferiores">
-                <div class="botonderecho">
-                    <div id="select"></div>
-                </div>
-                <div class="botonizquierdo">
-                    <div id="reset"></div>
-                </div>                    
-            </div>
-            <div></div>
-        </div>      
-    
 
+<body>
+    <div class="container flex">
+        <div class="container-gameboy"><!--gameboy-->
+            <div class="container-screen">
+                <div id="arribapantalla" class="background"><!--pantalla-->
+                    <div id="arribapantallaizquierda" class="background">
+                        <div id="gomaarribaizq"></div>
+                    </div>
+                    <div id="arribapantallacentro" class="flex background">
+                    </div>
+                    <div id="arribapantalladerecha" class="background">
+                        <div id="gomaarribader"></div>
+                    </div>
+                </div>
+                <div id="screen" class="flex background">
+                    <div id="lateralespantalla">
+                        <div id="margensuperior"></div>
+                        <div id="pantallavisible"></div>
+                        <div id="margeninferior" class="flex">
+                            <div id="marcapantalla"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="abajopantalla" class="background">
+                    <div id="abajopantallaizq" class="background">
+                        <div id="tapaizq"></div>
+                    </div>
+                    <div id="abajopantallacentro" class="background">
+
+                    </div>
+                    <div id="abajopantallader" class="background">
+                        <div id="tapader"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-axis background">
+                <div id="container-axis-1"></div>
+                <div id="container-axis-2"></div>
+                <div id="container-axis-3"></div>
+                <div id="container-axis-4"></div>
+                <div id="container-axis-5"></div>
+            </div>
+            <div class="container-buttons background">
+                <div id="container-buttons-light" class="background">
+                    <div id="light-nothing" class="background"></div>
+                    <div id="light-button" class="flex background">
+                        <div id="light-button-circle" class="flex">
+                            <span id="icon" class="material-symbols-outlined">
+                                light_mode
+                            </span>
+                        </div>
+                    </div>
+                    <div id="light-2lights" class="background">
+                        <div>
+                        <div id="greenlight" class="lightlight"></div>
+                        <div id="lights-space" class="background"></div>
+                        <div class="lightlight"></div>
+                    </div>
+                    </div>
+                </div>
+                <div id="container-buttons-control" class="background">
+                    <div id="control-arrows" class="flex background">
+                        <div class="arrows flex" id="arrows-top">
+                            <div id="top-left" class="background"></div>
+                            <div id="top-center"></div>
+                            <div id="top-right" class="background"></div>
+                        </div>
+                        <div class="arrows" id="arrows-center">
+                            <div id="center-left"></div>
+                            <div id="center-center" class="flex">
+                                <div id="circle"></div>
+                            </div>
+                            <div id="center-right"></div>
+                        </div>
+                        <div class="arrows" id="arrows-bottom">
+                            <div id="bottom-left" class="background"></div>
+                            <div id="bottom-center"></div>
+                            <div id="bottom-right" class="background"></div>
+                        </div>
+                    </div>
+                    <div id="control-buttons" class="background">
+                        <div class="A-B flex"> 
+                            A
+                        </div>
+                        <div class="A-B flex">
+                            B
+                        </div>
+                    </div>
+                </div>
+                <div id="container-buttons-grill" class="flex background">
+                    <div class="grill-empty background"></div>
+                    <div id="grill-grill" class="background">
+                        <div class="container-big-point">
+                            <div class="container-point flex"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                        </div>
+                        <div class="container-big-point">
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                        </div>
+                        <div class="container-big-point">
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                        </div>
+                        <div class="container-big-point">
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                            <div class="container-point"><div class="point"></div></div>
+                        </div>
+                    </div>
+                    <div class="grill-empty"></div>
+                </div>
+                <div id="container-buttons-start" class="background">
+                    <div id="select" class="background"><span class="ss">SELECT</span></div>
+                    <div id="start" class="background"><span class="ss">START</span> </div>
+                </div>
+                <div id="container-buttons-small" class="background">
+                    <button class="small-buttons" id="off"></button>
+                    <button class="small-buttons" id="on"></button>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    
-</div>
 </body>
+
 </html>

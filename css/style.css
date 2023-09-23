@@ -1,161 +1,561 @@
 body {
     margin: 0;
     padding: 0;
+    margin-top: 2em;
 
     background-color: black;
 
     height: 100vh;
     width: 100vw;
 
+}
+
+
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
-.partesuperior{
-    display: flex;
-    height: 25em;
-    width: 25em;
-    background-color: rgb(57, 57, 175);
-    border-radius: 2%;
-    
-}
 
-.pantalla{
-    display: flex;
+.background {
+    background-color: rgb(8, 8, 146);
+}*/
+
+/*Contenedor principal */
+/*.container {
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}*/
+
+/*Pantalla y borde de la pantalla*/
+
+.container-screen {
     height: 15em;
-    width: 18em;
-    background-color: rgba(117, 116, 116, 0.767);
-    border-radius: 1%;
-    margin-top: 3em;
+    width: 15em;
+    border-radius: 1em;
     border: 1em solid black;
-    border-bottom: 3em  solid black;
-    
-
-    
-}
-.pantizq{
-    height: 17em;
-    width: 1.6em;
-    justify-content: flex-start;
 }
 
-.goma-pantalla{
-    height: 1em;
-    width: 1em;
-    background-color: gray;
-    border-radius: 50%;
-    margin-top: 0.8em;
-}
 
-.row{
+/*Borde de arriba*/
+
+#arribapantalla {
+    width: 31em;
+    height: 2.5em;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
-   
 }
 
-.col1{
-    height: 3em;
+
+#arribapantallaizquierda {
+    width: 2em;
+    height: 2.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+}
+
+
+#arribapantallacentro {
+    width: 5em;
+    height: 2.5em;
+}
+
+
+#arribapantalladerecha {
+    width: 2em;
+    height: 2.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+
+/*Gomas parte de arriba de la pantalla*/
+
+#gomaarribaizq {
+    background: linear-gradient(to bottom, grey, rgb(23, 21, 21));
+    border-radius: 50%;
     width: 1.5em;
-    background-color: rgb(57, 57, 175);;
-    border-radius: 10%; 
-    
-}
-
-.col2{
-    height: 3em;
-    width: 11em;
-    background-color: rgb(57, 57, 175);;
-    border-radius: 10%;
+    height: 1.5em;
+    margin-left: 0.5em;
     border: 0.1em solid black;
-   
 }
 
-#col3{
+
+#gomaarribader {
+    background: linear-gradient(to bottom, grey, rgb(23, 21, 21));
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+    border: 0.1em solid black;
+}
+
+
+/*Pantalla total*/
+
+#screen {
+    width: 31em;
+    height: 25em;
+}
+
+
+/*Cuadrado que engloba la pantalla*/
+
+#lateralespantalla {
+    background-color: black;
+    width: 24em;
+    height: 22em;
+    border: 0.25em inset grey;
+}
+
+
+/*Margen de arriba de la pantalla*/
+
+#margensuperior {
+    width: 24em;
+    height: 1em;
+    background-color: black;
+}
+
+
+/*La propia Pantalla*/
+
+#pantallavisible {
+    border: 0.12em double rgb(53, 51, 51);
+    background-image: linear-gradient(to top right, rgb(27, 26, 26), grey);
+    background-repeat: no-repeat;
+    width: 21.5em;
+    height: 18em;
+    margin-left: 1.2em;
+}
+
+
+/*Margen de abajo de la pantalla*/
+
+#margeninferior {
+    width: 24em;
     height: 3em;
-    width: 1.2em;
-    background-color: rgb(57, 57, 175);;
-    border-radius: 10%;
+    background-color: black;
     
 }
 
-.parteinferior{
+/*Marca en margen inferior de la pantalla*/
+
+#marcapantalla {
+    width: 17em;
+    height: 2em;
+    background-color: black;
+    background-image: url(../img/marcagameboy.png);
+    background-size: cover;
+}
+
+/*Borde de abajo*/
+
+#abajopantalla {
+    width: 31em;
+    height: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+#abajopantallaizq {
+    width: 2em;
+    height: 2.5em;
+    margin-top: 0.1em;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#abajopantallacentro {
+    width: 5em;
+    height: 2.5em;
+}
+
+
+#abajopantallader {
+    width: 2em;
+    height: 2.5em;
+    margin-top: 0.1em;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/*Tapas parte de abajo de la pantalla*/
+
+#tapaizq {
+    background-color: rgb(29, 37, 150);
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 0.5em;
+}
+
+#tapader {
+    background-color: rgb(29, 37, 150);
+    border-radius: 50%;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;    
+}
+
+
+/*Bisagra gameboy*/
+
+.container-axis {
+    margin-left: -0.5vw;
+    width: 26vw;
+    height: 6vh;
+    border-radius: 15px;
+    display: flex;
+    border: 1.5px solid black;
+}
+
+#container-axis-1 {
+    background: linear-gradient(to bottom, grey, black);
+    border-right: solid 2px black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+    width: 10vw;
+}
+
+#container-axis-2 {
+    background: linear-gradient(to bottom, grey, black);
+    border-right: solid 2px black;
+    height: 100%;
+    width: 35vw;
+}
+
+#container-axis-3 {
+    background: linear-gradient(to bottom, grey, black);
+    border-right: solid 2px black;
+    height: 100%;
+    width: 35vw;
+}
+
+#container-axis-4 {
+    background: linear-gradient(to bottom, grey, black);
+    border-right: solid 2px black;
+    height: 100%;
+    width: 10vw;
+}
+
+#container-axis-5 {
+    background: linear-gradient(to bottom, grey, black);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 100%;
+    width: 10vw;
+}
+
+/*Zona de controles */
+.container-buttons {
+    height: 43vh;
+    width: 25vw;
+    border-radius: 15px;
+    border: 1.5px solid black;
+}
+
+/*Control-luz*/
+#container-buttons-light {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+}
+
+/*Div vacío*/
+#light-nothing {
+    width: 33%;
+    height: 100%;
+    border-top-left-radius: 15px;    
+}
+
+/*Div contenedor del botón de brillo*/
+#light-button {
+    width: 34%;
+    height: 100%;
+}
+
+
+/*Botón del brillo*/
+#light-button-circle {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: grey;
+    border: 0.5px inset grey;
+}
+
+/*Icono del brillo*/
+#icon {
+    width: 1px;
+    height: 1px;
+    margin-bottom: 3vh;
+    margin-right: 1.45vw;       
+}
+
+/* Div Luces de encendido*/
+#light-2lights {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top-right-radius: 15px;
+}
+
+/*Luces de encendido*/
+.lightlight {
+    width: 1vw;
+    height: 1vh; 
+    background: linear-gradient(to bottom, rgb(134, 130, 130), rgb(175, 165, 165));   
+}
+
+#lights-space {
+    width: 1vw;
+    height: 1vh;
+}
+
+/*Control-botones*/
+#container-buttons-control {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Control-rejilla*/
+#container-buttons-grill {
+    width: 100%;
+    height: 10vh;
+}
+
+/*Control-select-start*/
+#container-buttons-start {
+    width: 100%;
+    height: 2vh;
     display: flex;
     justify-content: center;
-    height: 25em;
-    width: 25em;
-    background-color: rgb(57, 57, 175);
-    border-radius: 2%;
-    overflow: hidden;
-    
+    align-items: flex-end;
 }
 
-
-.botoncentralsuperior{
+/*Control-botones-select/start-abajo*/
+#container-buttons-small {
+    width: 100%;
+    height: 7vh;
     display: flex;
-    height: 1em;
-    width: 1em;
-    background-color: gray;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;    
+}
+
+/*Contenedor de todas las direcciones*/
+#control-arrows {
+    border: 7px inset grey;
     border-radius: 50%;
-    margin-top: 2em;
+    height: 15vh;
+    width: 8vw;
+    flex-direction: column;
 }
 
-.luzverde{
-    height: 1em;
-    width: 2em;
-    color: 0.1em solid red;
-    background-color: red;
-
-}
-
-.relievejoystic{
+/*Contenedor botones A y B*/
+#control-buttons {
+    border-radius: 25px;
+    height: 8vh;
+    width: 8vw;
     display: flex;
-    height: 10em;
-    width: 10em;
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow: -20px -17px 198px -9px rgba(0,0,0,0.63);
-    -webkit-box-shadow: -20px -17px 198px -9px rgba(0,0,0,0.63);
-    -moz-box-shadow: -20px -17px 198px -9px rgba(0,0,0,0.63);
-    border-radius: 50%;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotate(135deg);
+    border: 4px outset grey;
+}
+
+.arrows {
+    display: flex;
+    height: 3vh;
+    width: 6vw;
+}
+
+/*Flechas*/
+#arrows-top {
+    height: 3.5vh;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#top-left {
+    height: 3vh;
+    width: 2vw;
+    border-top-left-radius: 50%;
+}
+
+#top-center {
+    background-color: grey;
+    height: 3vh;
+    width: 2vw;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-bottom: -3px;
     position: absolute;
-    margin-top: 4em;
-    margin-left: -12em;
-    
-    
 }
 
-#joysticsuperior{
+#top-right {
+    height: 3vh;
+    width: 2vw;
+    border-top-right-radius: 50%;
+}
+
+#arrows-center {
+    height: 3.5vh;
+}
+
+#center-left {
     background-color: grey;
-    height: 8em;
-    width: 3em;
-    margin-top: 1em;
-    border-radius: 7%;
-    
+    height: 3.5vh;
+    width: 2vw;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
 }
 
-#joysticderecha{
-    padding-right: 2.5em;
+#center-center {
+    height: 3.5vh;
+    width: 2vw;
+}
+
+#circle {
+    background: linear-gradient(to bottom, grey, rgb(43, 40, 40));
+    height: 5.4vh;
+    width: 2.8vw;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#center-right {
     background-color: grey;
-    height: 3em;
-    margin-top: 3.5em;
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
-
-    
+    height: 3.5vh;
+    width: 2vw;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
-#joysticizquierda{
-    padding-right: 2.5em;
-    background-color: gray;
-    height: 3em;
-    margin-top: 3.5em;
-    margin-left: 1em;
-    border-top-left-radius: 15%;
-    border-bottom-left-radius: 15%;
-    
+#arrows-bottom {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
+#bottom-left {
+    height: 3vh;
+    width: 2vw;
+    border-bottom-left-radius: 50%;
+}
+
+#bottom-center {
+    background-color: grey;
+    height: 3.5vh;
+    width: 2vw;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+#bottom-right {
+    height: 3vh;
+    width: 2vw;
+    border-bottom-right-radius: 50%;
+}
+
+/*Botones A y B*/
+.A-B {
+    width: 2.5vw;
+    height: 5vh;
+    background-color: grey;
+    border-radius: 50%;
+    border: 1.5px outset rgb(75, 58, 58);
+    transform: rotate(225deg);
+}
+
+/*Dos divs vacios, al lado de la rejilla*/
+.grill-empty {
+    width: 40%;
+    height: 100%;
+}
+
+/*Rejilla*/
+#grill-grill {
+    width: 20%;
+    height: 100%;
+    margin-bottom: 7vh;
+}
+
+.container-big-point {
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+
+.container-point {
+    width: 25%;
+    height: 100%;
+}
+
+.point {
+    background-color: black;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+#select {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 1vw;
+}
+
+#start {
+    width: 50%;  
+    height: 100%;  
+}
+
+.ss {
+    text-shadow: 0.1vw 0.1vh  rgb(117, 108, 108);
+    color: grey;
+    font-size: 10px;   
+}
+
+.small-buttons {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: grey;
+    border: 1px inset grey;
+    margin: 0 0.7vw 0 0.6vw;
+}
