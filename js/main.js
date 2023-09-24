@@ -3,6 +3,7 @@ let pantalla = document.getElementById("pantallavisible");
 let ledverde = document.getElementById("luzverde");
 let ledambar = document.getElementById("luzambar");
 let contador = 0;
+let audio1 = new Audio('./audio/startup.mp3');
 
 
 document.addEventListener("click", (e) => {
@@ -10,8 +11,10 @@ document.addEventListener("click", (e) => {
     if (e.target.id === 'on') {
 
         pantalla.style.backgroundImage = "url('img/startup.gif')";
-
+              
         ledverde.style.background = 'green';
+
+        audio1.play();
 
         document.addEventListener("click", (e) => {
 
@@ -20,6 +23,8 @@ document.addEventListener("click", (e) => {
                 pantalla.style.backgroundImage = "url('img/supermariobros.gif')";
 
                 ledambar.style.background = 'orange';
+
+                contador = 0
             };
 
         });
