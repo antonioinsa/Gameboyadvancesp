@@ -24,17 +24,23 @@ En este proyecto se ha diseñado una Game Boy Advance SP y se le ha otorgado de 
 
 ## Funcionamiento
 
-Pulsamos START y nos aparece la pantalla de bienvenida.
+Pulsamos START, nos aparece la pantalla de bienvenida y se enciende el led verde, indicandonos que esta encendida.
 <img src="./img/start.png" alt="boton start" width=400>
+
 <br>
-Si pulsamos el boton A, se pondra en funcionamiento el juego Super Mario Bros.
+
+Si pulsamos el boton A, se pondra en funcionamiento el juego Super Mario Bros y se encendera el led ambar, indicandonos que se esta haciendo uso de la memoria.
 <img src="./img/juego.png" alt="boton start" width=400>
+
 <br>
+
 Para apagar la videoconsola, pulsaremos SELECT.
+
+<br>
+
 <img src="./img/apagada.png" alt="boton start" width=400>
 
 <br>
-
 <br>
 
 ## Tecnologías Utilizadas

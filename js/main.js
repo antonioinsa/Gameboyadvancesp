@@ -11,37 +11,27 @@ document.addEventListener("click", (e) => {
 
         pantalla.style.backgroundImage = "url('img/startup.gif')";
 
+        ledverde.style.background = 'green';
 
-        if (contador = 1) { ledverde.style.background = 'green' };
+        document.addEventListener("click", (e) => {
 
+            if ((contador = 1) && (e.target.id === 'a')) {
 
-    } else if (e.target.id === 'off') {
+                pantalla.style.backgroundImage = "url('img/supermariobros.gif')";
+
+                ledambar.style.background = 'orange';
+            };
+
+        });
+    }
+
+    else if (e.target.id === 'off') {
 
         pantalla.style.backgroundImage = "url('img/mariogorrafin.gif')";
-        contador++;
-        if (contador > 1) { ledverde.style.background = "linear-gradient(to bottom, rgb(134, 130, 130), rgb(175, 165, 165))" };
 
+        setTimeout(function () {
+            location.reload();
+        }, 2000);
     };
-
-
-});
-
-document.addEventListener("click", (e) => {
-
-    if (e.target.id === 'a') {
-
-        pantalla.style.backgroundImage = "url('img/supermariobros.gif')";
-
-
-        if (contador = 1) { ledambar.style.background = 'orange' };
-
-
-    } else if (e.target.id === 'off') {
-
-        contador++;
-        if (contador > 1) { ledambar.style.background = "linear-gradient(to bottom, rgb(134, 130, 130), rgb(175, 165, 165))" };
-        location.reload();
-    };
-
 
 });
