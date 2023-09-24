@@ -40,7 +40,7 @@ document.addEventListener("click", (e)=>{
 
         contador++;
         if (contador >1) {ledambar.style.background = "linear-gradient(to bottom, rgb(134, 130, 130), rgb(175, 165, 165))"};
-        
+        location.reload();
     };
 
 
