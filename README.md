@@ -53,8 +53,6 @@ Para apagar la videoconsola, pulsaremos SELECT.
 
 - En el archivo CSS, en la linea 30, aparece "*/", que al eliminarlo hace que el diseño de cajas se sobremonten unas encimas de otras, rompiendo todo el diseño.
 <br>
-- No hay un procedimiento establecido para el encendido de la videoconsola, con lo que sin encenderla podemos pulsar el boton A y arrancara el juego.
-<br>
 
 ## Licencia
 
