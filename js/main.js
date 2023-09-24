@@ -9,7 +9,7 @@ document.addEventListener("click", (e)=>{
 
     if (e.target.id === 'on') {
 
-        pantalla.style.backgroundImage = "url('img/startup.mp4')";
+        pantalla.style.backgroundImage = "url('img/startup.gif')";
        
 
         if (contador = 1) {ledverde.style.background = 'green'};
@@ -30,7 +30,7 @@ document.addEventListener("click", (e)=>{
 
     if (e.target.id === 'a') {
 
-        pantalla.style.backgroundImage = "url('img/startup.mp4')";
+        pantalla.style.backgroundImage = "url('img/supermariobros.gif')";
        
 
         if (contador = 1) {ledambar.style.background = 'orange'};
