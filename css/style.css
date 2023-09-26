@@ -461,7 +461,9 @@ body {
     border: 0.1em outset rgb(66, 61, 61);
     transform: rotate(225deg);
 }
-
+#a.A-B.flex {
+    cursor: pointer;
+}
 .rejilla-vacia {
     width: 12em;
     height: 5em;
@@ -512,7 +514,6 @@ body {
     -webkit-text-stroke: 0.1em rgb(35, 35, 168);
     font-size: 0.8em;
     font-weight: bold;
-
 }
 
 /*Botones fisicos select y start*/
@@ -523,4 +524,5 @@ body {
     background-color: grey;
     margin: 0 0.7em 0 0.6em;
     border: 0.1em outset rgb(66, 61, 61);
+    cursor: pointer;
 }
