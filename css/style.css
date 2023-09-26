@@ -2,21 +2,14 @@ body {
     margin: 0;
     padding: 0;
     margin-top: 2em;
-
     background-image: url(../img/imagenfondo.jpg);
     background-size: cover;
     background-position: center;
-
     height: 100vh;
     width: 100vw;
-
     overflow-x: hidden;
-    /*overflow-y: hidden;*/
-
     font-size: 15px;
-
 }
-
 
 .flex {
     display: flex;
@@ -24,14 +17,13 @@ body {
     align-items: center;
 }
 
-
 .background {
     background-color: rgb(8, 8, 146);
 }
 
 */
-/*Pantalla y borde de la pantalla*/
 
+/*Pantalla y borde de la pantalla*/
 .container-arriba {
     height: 15em;
     width: 15em;
@@ -39,9 +31,7 @@ body {
     border: 1em solid black;
 }
 
-
 /*Borde de arriba*/
-
 #arribapantalla {
     width: 31em;
     height: 2em;
@@ -53,7 +43,6 @@ body {
 
 }
 
-
 #arribapantallaizquierda {
     width: 2em;
     height: 2em;
@@ -64,12 +53,10 @@ body {
 
 }
 
-
 #arribapantallacentro {
     width: 5em;
     height: 2em;
 }
-
 
 #arribapantalladerecha {
     width: 2em;
@@ -80,9 +67,7 @@ body {
     border-top-right-radius: 15px;
 }
 
-
 /*Gomas parte de arriba de la pantalla*/
-
 #gomaarribaizq {
     background: linear-gradient(to bottom, grey, rgb(23, 21, 21));
     border-radius: 50%;
@@ -92,7 +77,6 @@ body {
     margin-top: 0.3em;
     border: 0.1em solid black;
 }
-
 
 #gomaarribader {
     background: linear-gradient(to bottom, grey, rgb(23, 21, 21));
@@ -104,17 +88,13 @@ body {
     border: 0.1em solid black;
 }
 
-
 /*Pantalla total*/
-
 #screen {
     width: 31em;
     height: 25em;
 }
 
-
 /*Cuadrado que engloba la pantalla*/
-
 #lateralespantalla {
     background-color: black;
     width: 24em;
@@ -122,18 +102,14 @@ body {
     border: 0.25em inset rgb(31, 29, 105);
 }
 
-
 /*Margen de arriba de la pantalla*/
-
 #margensuperior {
     width: 24em;
     height: 1em;
     background-color: black;
 }
 
-
 /*La propia Pantalla*/
-
 #pantallavisible {
     border: 0.12em double rgb(53, 51, 51);
     background-image: linear-gradient(to top right, rgb(27, 26, 26), grey);
@@ -143,18 +119,14 @@ body {
     margin-left: 1.2em;
 }
 
-
 /*Margen de abajo de la pantalla*/
-
 #margeninferior {
     width: 24em;
     height: 3em;
     background-color: black;
-
 }
 
 /*Marca en margen inferior de la pantalla*/
-
 #marcapantalla {
     width: 17em;
     height: 2em;
@@ -164,7 +136,6 @@ body {
 }
 
 /*Borde de abajo*/
-
 #abajopantalla {
     width: 31em;
     height: 2.5em;
@@ -185,12 +156,10 @@ body {
     align-items: center;
 }
 
-
 #abajopantallacentro {
     width: 5em;
     height: 2.5em;
 }
-
 
 #abajopantallader {
     width: 2em;
@@ -202,9 +171,7 @@ body {
     align-items: center;
 }
 
-
 /*Tapas parte de abajo de la pantalla*/
-
 #tapaizq {
     background-color: rgb(8, 8, 146);
     border-radius: 50%;
@@ -223,9 +190,7 @@ body {
     border: 0.1em inset black;
 }
 
-
 /*Bisagra gameboy*/
-
 .container-axis {
     width: 31em;
     height: 2em;
@@ -268,7 +233,6 @@ body {
 }
 
 /*Parte de abajo gameboy*/
-
 .container-abajo {
     height: 25em;
     width: 31em;
@@ -276,7 +240,6 @@ body {
 }
 
 /*Control-luz*/
-
 #container-abajo-luces {
     height: 6em;
     width: 31em;
@@ -287,7 +250,6 @@ body {
     border-top-right-radius: 15px;
 }
 
-
 #light-nothing {
     width: 10em;
     height: 2.5em;
@@ -295,12 +257,10 @@ body {
 }
 
 /*Botón del brillo*/
-
 #light-button {
     width: 3em;
     height: 3em;
 }
-
 
 #botonbrillo {
     width: 2em;
@@ -312,7 +272,6 @@ body {
 }
 
 /*Leds*/
-
 #leds {
     width: 10em;
     height: 5em;
@@ -323,7 +282,6 @@ body {
 }
 
 /*Leds de encendido*/
-
 .luces {
     width: 1.2em;
     height: 0.6em;
@@ -336,7 +294,6 @@ body {
 }
 
 /*Crontoles de juego totales, conjunto*/
-
 #container-botonescontrol {
     width: 31em;
     height: 11em;
@@ -346,14 +303,12 @@ body {
 }
 
 /*Rejilla del altavoz*/
-
 #container-rejilla {
     width: 31em;
     height: 6em;
 }
 
 /*Botones select y start*/
-
 #container-botonesencendido {
     width: 31em;
     height: 1.5em;
@@ -362,7 +317,6 @@ body {
 }
 
 /*Control-botones-select/start-abajo*/
-
 #container-botonesfisicos-encendido {
     width: 31em;
     height: 4em;
@@ -374,7 +328,6 @@ body {
 }
 
 /*Control de cruceta*/
-
 #control-cruceta {
     border: 0.1em;
     box-shadow: 0px 0px 30px -7px rgba(0, 0, 0, 0.39);
@@ -387,7 +340,6 @@ body {
 }
 
 /*Contenedor botones A y B*/
-
 #control-botones {
     border-radius: 40%;
     height: 5em;
@@ -410,22 +362,18 @@ body {
     align-items: center;
 }
 
-
 /*Flechas*/
-
 #arrows-top {
     height: 2em;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
 
-
 #top-left {
     height: 2em;
     width: 2em;
     border-top-left-radius: 50%;
 }
-
 
 #top-center {
     background-color: grey;
@@ -437,18 +385,15 @@ body {
     position: absolute;
 }
 
-
 #top-right {
     height: 2em;
     width: 2em;
     border-top-right-radius: 50%;
 }
 
-
 #arrows-center {
     height: 2.5em;
 }
-
 
 #center-left {
     background-color: grey;
@@ -458,12 +403,10 @@ body {
     border-bottom-left-radius: 15%;
 }
 
-
 #center-center {
     height: 2em;
     width: 2.2em;
 }
-
 
 #circle {
 
@@ -476,7 +419,6 @@ body {
     z-index: 1;
 }
 
-
 #center-right {
     background-color: grey;
     height: 2.2em;
@@ -485,12 +427,10 @@ body {
     border-bottom-right-radius: 15%;
 }
 
-
 #arrows-bottom {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
-
 
 #bottom-left {
     height: 2em;
@@ -506,7 +446,6 @@ body {
     border-bottom-right-radius: 15%;
 }
 
-
 #bottom-right {
     height: 2em;
     width: 2.5em;
@@ -514,7 +453,6 @@ body {
 }
 
 /*Botones A y B*/
-
 .A-B {
     width: 3em;
     height: 3em;
@@ -524,22 +462,17 @@ body {
     transform: rotate(225deg);
 }
 
-
-
 .rejilla-vacia {
     width: 12em;
     height: 5em;
 }
 
-
 /*Rejilla*/
-
 #grill-grill {
     width: 6.5em;
     height: 6.5em;
     margin-bottom: 3em;
 }
-
 
 .container-big-point {
     display: flex;
@@ -574,9 +507,7 @@ body {
 }
 
 /*Texto select y start*/
-
 .ss {
-
     color: rgb(14, 14, 231);
     -webkit-text-stroke: 0.1em rgb(35, 35, 168);
     font-size: 0.8em;
@@ -584,9 +515,7 @@ body {
 
 }
 
-
 /*Botones fisicos select y start*/
-
 .botones-encendido {
     width: 3em;
     height: 3em;

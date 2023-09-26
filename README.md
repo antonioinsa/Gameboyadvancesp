@@ -55,7 +55,7 @@ Para apagar la videoconsola, pulsaremos SELECT.
 
 ## Errores
 
-- En el archivo CSS, en la linea 30, aparece "*/", que al eliminarlo hace que el diseño de cajas se sobremonten unas encimas de otras, rompiendo todo el diseño.
+- En el archivo CSS, en la linea 24, aparece "*/", que al eliminarlo hace que el diseño de cajas se sobremonten unas encimas de otras, rompiendo todo el diseño.
 <br>
 
 ## Licencia
